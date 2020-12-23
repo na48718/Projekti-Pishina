@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="english" dir="ltr">
+
+<head>
+    <title>Pishina Qyqavica</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <navigator class="navigator-area">
+        <div class="container"></div>
+        <div id="images"></div>
+        <header>
+            <div class="nav-area>"></div>
+            <div class="container">
+                <i class="image"></i>
+                <nav>
+                    <ul>
+
+                        <li><b><img href=" file:///C:/Users/PC-SYSTEMS/OneDrive/Desktop/PISHINA%20QYQAVICA/index.html#"
+                                    src="https://img.icons8.com/color/48/000000/swimming-pool.png" width="35"
+                                    height="35" alt="Logo">QYQAVICA</img></b></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Rregullat</a></li>
+                        <li><a href="file:///C:/Users/PC-SYSTEMS/OneDrive/Desktop/Contact-us/index.html">CONTACT US</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </navigator>
+
+    <div class="navigator-area1">
+
+
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <div class="slide first">
+                    <img src="Images/1.jpg" width="800" height="500" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Images/2.jpg" width="800" height="500" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Images/3.jpg" width="800" height="500" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Images/4.jpg" width="800" height="500" alt="">
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 4){
+                counter = 1;
+            }
+        }, 5000);
+    </script>
+</body>
